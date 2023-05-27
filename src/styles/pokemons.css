@@ -1,0 +1,38 @@
+.card {
+  border: solid var(--blue) 8px;
+  border-radius: 10px;
+  background-color: var(--yellow);
+  width: 300px;
+  margin: 80px auto 0;
+  padding: 20px;
+  text-align: center;
+  transition: transform 400ms;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.loading__card {
+  background-color: var(--blue);
+  border: none;
+}
+
+.loading__card h3 {
+  color: white;
+}
+
+.card * {
+  margin: 0;
+  color: var(--dark-blue);
+  text-transform: capitalize;
+}
+
+.card .card__img {
+  width: 100%;
+}
+
+.card .card__name {
+  font-size: 1.8rem;
+  margin-bottom: 5px;
+}
